@@ -13,6 +13,6 @@ salfinal = salario + acrescimo;
 
 console.log(`Seu novo salário é R$ ${salfinal}`);
 
-
+//Comentario realizado 17/06/26
 
 
