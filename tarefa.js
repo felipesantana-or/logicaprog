@@ -21,9 +21,11 @@ media = (nota1 + nota2 + nota3 + nota4) / 4;
 
 if (media >=  5 ) {
 
-  console.log(`Média: ${media.toFixed(1)} - Situações: APROVADO `)
+  console.log(`Média: ${media.toFixed(1)} - Situação: APROVADO `)
 } else {
 
-  Console.log(`Média: ${media.toFixed(1)} - Situações: REPROVADO `)
+  Console.log(`Média: ${media.toFixed(1)} - Situação: REPROVADO `)
 
 }
+
+// Comentario inserido em 17/06/26
