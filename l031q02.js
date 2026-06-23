@@ -6,7 +6,7 @@
 
 // Var
 let nome ;
-let num1, num2, num3, num4 soma, mult; 
+let num1, num2, num3, num4 , mult; 
 
 console.log("informe o seu nome: ");
 //leia(nome)
@@ -28,7 +28,7 @@ num4 = 12;
 soma = num1 + num2 + num3 + num4;
 console.log("A soma dos 4 valores é "+ soma);
 
-console.log("SOMA:" + num1 + " + " + num2 + " + " num3 + " + " num4 " + ")
+console.log
 
 
 mult = num1 * num2 * num3 * num4;
