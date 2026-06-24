@@ -1,31 +1,18 @@
-let nota1, nota2, nota3, nota4, media;
+//Desenvolver um programa que apresente no final a soma dos 
+// valores pares existentes na faixa de 3 até 21.
 
-console.log("Informe a primeira nota: ")
-nota1 = 8;
-console.log(`nota 1 : ${nota1}`);
+let acum = 0
+for (let cont = 3; cont <= 21; cont++  ){
 
-console.log("Informe a primeira nota: ")
-nota2 = 7.5;
-console.log(`nota 1 : ${nota2}`);
+if (cont % 2 === 0) 
 
-console.log("Informe a primeira nota: ")
-nota3 = 5;
-console.log(`nota 1 : ${nota3}`);
 
-console.log("Informe a primeira nota: ")
-nota4 = 10;
-
-console.log(`nota 1 : ${nota4}`);
-
-media = (nota1 + nota2 + nota3 + nota4) / 4;
-
-if (media >=  5 ) {
-
-  console.log(`Média: ${media.toFixed(1)} - Situação: APROVADO `)
-} else {
-
-  Console.log(`Média: ${media.toFixed(1)} - Situação: REPROVADO `)
+{ acum += cont; }
 
 }
 
-// Comentario inserido em 17/06/26
+
+
+
+
+console.log(`A soma dos valores de 3 até 21 é: ${acum}`);

@@ -1,21 +1,64 @@
-//Desenvolver um programa que pergunte ao usuário o seu nome completo e seu sexo. Em seguida, o programa
-//deve apresentar os dados anteriormente informados.
-
-//var 
-
-let = num1, num2, num3;
+//declarando um obejeto chamado aluno em (typescript)
 
 
-//leia(nome)
+let aluno: {
 
-console.log("Informe o primeiro número: ");
-num1 = 5;
+   nome: "João",
+   idade: 20,
+   ativo: true
+  
+};
 
-console.log("Informe o segundo número: ");
-num2 = 7;
+console.log(aluno); // exibe o objeto completo
 
-console.log("Informe o terceiro número: ")
-num3 = 9;
+console.log(`Nome do aluno ${aluno.nome}`);
+console.log(`Idade: ${aluno.idade}`);
+console.log(`Situação ${aluno.ativo}`);
 
-media = (num1 + num2 + num3) / 3;
-console.log ()
+if (aluno.ativo === true){
+
+console.log("Situação: Ativo");
+
+} else {
+
+
+console.log("Situação: Inativo");
+
+
+}
+
+
+// exemplo notação de conchetes
+
+
+let propriedades = "nome"
+
+console.log(aluno[propriedades]);//
+
+//também funciona diretamente
+
+console.log(aluno["idade"]);
+
+//declarando novo objeto 
+
+    let produto {
+
+    nome: "Notebook",
+    preco: 3000
+    
+
+    };
+
+    console.log( produto);
+
+    //modificando o preço do notebook
+
+    produto.preco = 2888
+
+    console.log( produto);
+
+
+    //adicionar uma propriedade (uma nova chave)
+
+    produto.estoque = 15;
+

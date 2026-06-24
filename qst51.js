@@ -1,11 +1,5 @@
-let cont = 1; //contador
+//Desenvolver um programa que apresente os resultados de uma tabuada 
+// de um número qualquer informado
+//pelo usuário.
 
-while (cont <= 100 ) {
-       
-    console.log ( cont );
-
-    cont = cont + 1; 
-
-    
-
-}
+for(let )
