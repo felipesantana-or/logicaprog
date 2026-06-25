@@ -16,4 +16,4 @@ console.log(`A soma dos valores pares de 0 a 500 é ${acum}`);
 
     
 
-}
+};

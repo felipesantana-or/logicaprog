@@ -13,7 +13,7 @@ num = 20; // exemplo de um número informado pelo usuário
 if (num >= 20) {
     metade = num / 2;
     console.log(`A metade de ${num} é ${metade}`);
-}else {
+} else {
 console.log(`O nùmero inserido foi ${num}`);                           
 
 }
